@@ -1,4 +1,13 @@
 
+#wrapper {
+    width:100%;
+    height:100%;
+}
+nav {
+    bottom-border:3px solid black;
+}
+
+
 body {
 background-color:lightgray;
 }
@@ -19,8 +28,9 @@ background-color:lightgray;
     letter-spacing:1px;
 }
 
-.custom-Pading {
-    padding-top:25px;
+.custom-Padding {
+    
+    border-bottom:3px solid black;
 }
 
 nav {
@@ -59,28 +69,52 @@ nav {
     height:30px;
 }
 
-
-
-.photo1 {
-    height: 500px;
-    width: 350px;
+#photo1 {
+    
     float:left;
-    margin-left: 10%;
+    margin-left: 2%;
+    margin-top:2%;
+    position:absolute;   
     
 }
 
-#section1 {
+.sectionHdr {
+    width:60%;
+    margin-left:20%;
+    background-color:white;
+    display:block;
+    border:2px solid black;
+    
+    position:absolute;
+    
+}
+
+.aboutHdr {
+    padding-left:3%; 
+    background-color:gray;
+    margin-right:72%;
+    padding:10px;
+    margin-left:3%;
+    text-transform:uppercase;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    
+}
+
+.section1 {
+    margin-top:0%;
     height:400px;
     float:left;
-    margin:30px;
+    margin-left:0%;
     background-color:white;
     padding:10px;
-    width:40%; 
-    border:1px solid black;
-
-
-
+    position:relative;
+    border-top:2px solid black;
 }
+
+
 
 #full {
     width:100%;
@@ -90,12 +124,12 @@ nav {
 
 
 form {
-    border: 1px solid black;
+    border: 2px solid black;
     width:50%;
     margin-left:25%;
     margin-right:25%;
     position:relative;
-    margin-top:120px;
+    margin-top:5%;
     background-color:white;
 }
 
@@ -104,12 +138,14 @@ form {
     width:90%;
     padding-left:2%;
     margin-left:2%;
+    
 }
 
 .impFld1 {
     
     width:100%;
-      
+    border:1px solid black;
+    background-color:lightgray;
    
 }
 
@@ -118,6 +154,9 @@ form {
     height:180px;
     margin-bottom:2%;
     margin-right: 2%;
+    border:1px solid black;
+    background-color:lightgray;
+    
 
    
 }
@@ -131,9 +170,15 @@ form {
     border-bottom:1px solid black;
 }
 
+.cntBack {
+    background-color:gray;
+    margin-right:75%;
+    padding:10px;
+}
+
 
 .cntc {
-    border: 1px solid lightgray;
+    border: 1px solid black;
    
 }
 
@@ -141,4 +186,16 @@ form {
     background-color:gray;
     color:white;
     margin-bottom:2%;
+    text-transform:uppercase;
+    padding: 0.5%;
+}
+
+.ftr {
+    position:absolute;
+    bottom:0;
+    clear:both;
+    width:100%;
+    height:5%;
+    background-color:gray;
+    border-top:3px solid black;
 }
