@@ -167,7 +167,7 @@ form {
     width:90%;
     color:Black;    
     text-transform: uppercase;
-    border-bottom:1px solid black;
+    border-bottom:2px solid black;
 }
 
 .cntBack {
@@ -199,3 +199,81 @@ form {
     background-color:gray;
     border-top:3px solid black;
 }
+
+.pMain {
+    background-color: white;
+    position: relative;
+    margin-top: 2%;
+    width: 80%;
+    height: 553px;
+    margin-left: 10%;
+    border: 2px solid black;
+}
+
+.pInterior {
+    position: absolute;
+    width: 92%;
+    line-height: 58%;
+    margin-left: 2%;
+    text-transform: uppercase;
+    padding-left: 1%;
+    padding-left: 1%;
+    border-bottom: 2px solid black;
+   
+}
+
+.ph2 {
+    
+    background-color: gray;
+    width: 19%;
+    padding: 2%;
+    border: 1px solid black;
+
+}
+
+.imgParent {
+    height: 120px;
+    margin-top: 11%;
+    margin-left: 7%;
+    width: 100%;
+    float: left;
+
+}
+
+/* .photo-spacing img {
+    width:100%;
+    height:100%
+    float:left; */
+
+.images {
+    float: left;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-bottom:5%;
+    margin-right:5%;
+    height: 136px;
+    width: 93px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.images img {
+    width:100%;
+    height:100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
